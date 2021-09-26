@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Hi, I'm Bryan a Full Stack Web Developer.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap" rel="stylesheet">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>BreyDev</title>
+</head>
+
+<body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v7.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution="install_email" page_id="111136214024316" theme_color="#0084ff" logged_in_greeting="Hi! How can I help you? :)" logged_out_greeting="Hi! How can I help you? :)">
+    </div>
+
+    <!-- START OF MENU -->
+    <div class="site-wrapper no-animation">
+        <div class="mobile-nav">
+            <div class="links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a class="navbar-brand font-weight-bolder" href="index.html"><img src="./assets/images/logo1.png" loading="lazy" alt="logo"></a>
+                </div>
+                <div class="links">
+                    <div class="link teal">
+                        <a href="#header">Home</a>
+                        <div class="underline">
+                            <div class="part"></div>
+                            <div class="part"></div>
+                            <div class="part"></div>
+                            <div class="part"></div>
+                        </div>
+                    </div>
+                    <div class="link blue">
+                        <a href="#about">About</a>
+                        <div class="underline">
+                            <div class="part"></div>
+                            <div class="part"></div>
+                            <div class="part"></div>
+                            <div class="part"></div>
+                        </div>
+                    </div>
+                    <div class="link indigo">
+                        <a href="#skills">Skills</a>
+                        <div class="underline">
+                            <div class="part"></div>
+                            <div class="part"></div>
+                            <div class="part"></div>
+                            <div class="part"></div>
+                        </div>
+                    </div>
+                    <div class="link pink">
+                        <a href="#project">Projects</a>
+                        <div class="underline">
+                            <div class="part"></div>
+                            <div class="part"></div>
+                            <div class="part"></div>
+                            <div class="part"></div>
+                        </div>
+                    </div>
+                    <div class="link blue">
+                        <a href="#contact">Contact</a>
+                        <div class="underline">
+                            <div class="part"></div>
+                            <div class="part"></div>
+                            <div class="part"></div>
+                            <div class="part"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="burger">
+                    <div class="close">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="menu">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- END OF NAV MENU -->
+
+        <!-- START OF BANNER -->
+
+        <div class="container-fluid banner-main-container">
+            <div class="container banner-container">
+                <h1 data-aos="fade-down" data-aos-delay="800">hi, i'm bryan</h1>
+                <h3 class="typewrite" data-period="1000" data-type='["full stack web developer.", "front end developer.", "back end developer" ]'>full stack developer</h3>
+                <a data-aos="fade-down" href="./assets/images/ogena_bryan_resume_updated.pdf" download>download resume</a>
+            </div>
+        </div>
+
+        <!-- END OF BANNER -->
+
+        <!-- START OF ABOUT SECTION -->
+
+        <div class="container d-flex align-center about-section py-4" id="about">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 text-center">
+                    <img src="./assets/images/pic.png" class="about-img" loading="lazy" alt="my-picture" data-aos="fade-right">
+                </div>
+                <div class="col-lg-8 col-md-12 ">
+                    <h2 class="text-lg-left text-center py-md-0 py-md-3 py-2" data-aos="fade-left">who’s this guy?</h2>
+                    <p class="text-left" data-aos="fade-right">a zuitt bootcamper and a full stack web developer based on marilao bulacan philippines who loves solving problems, learning new technologies. i have a serious passion in coding, animations and creating websites that has a great user
+                        interface and user experience.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- END OF ABOUT SECTION -->
+
+        <!-- START OF ABOUT SECTION -->
+
+        <div class="container d-flex align-items-center  p-4" id="awards">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Award Section</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- END OF ABOUT SECTION -->
+
+        <!-- START OF ABOUT SECTION -->
+
+        <div class="container d-flex align-items-center  p-4" id="awards">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Award Section</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- END OF ABOUT SECTION -->
+
+        <!-- START OF SKILLS -->
+
+        <div class="container d-flex align-items-center  p-4" id="skills">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Skills Section</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- END OF SKILLS -->
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!-- EXTERNAL JS -->
+        <script src="assets/js/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 160,
+                duration: 800
+            });
+        </script>
+
+
+</body>
+
+</html>
